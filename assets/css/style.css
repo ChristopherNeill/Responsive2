@@ -59,7 +59,7 @@ nav.navbar.navbar-light.fixed-bottom{
 
 /* Media Queries */
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #portfolio,
     #about-me,
     #contact,
