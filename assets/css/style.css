@@ -5,43 +5,47 @@ body {
 }
 
 /* Main Nav Styles */
-a.navbar-brand.bg-info
-{   
+a.navbar-brand.bg-info {
     font-family: 'Abril Fatface', cursive;
     color: #fff;
     font-size: 34px;
     padding: 6px;
-   
 }
 
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+}
 nav {
-    font-family: 'lato',sans-serif;
+    font-family: 'lato', sans-serif;
     padding-bottom: 0px !important;
 }
-nav div div {
-    padding-bottom: 7px;
-}
+
 h1 {
     font-weight: lighter;
     font-family: 'Abril Fatface', cursive;
     font-size: 34px;
 }
-h1 .text-info{
+
+h1 .text-info {
     font-family: 'Abril Fatface', cursive;
     font-size: 34px;
 
 }
+
 /* Main Footer Styles */
-nav.navbar.navbar-light.fixed-bottom{
+nav.navbar.navbar-light.fixed-bottom {
     width: 100%;
     height: 42px;
     margin: 0px;
     margin-top: 0px;
     padding: 0px;
     padding-right: 0px;
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
+#footertxt{
+ margin-left: 40%;
+}
 
 
 
@@ -50,6 +54,7 @@ nav.navbar.navbar-light.fixed-bottom{
 .card-img-top {
     position: relative;
 }
+
 .card-title {
     position: absolute;
     z-index: 1;
@@ -59,11 +64,12 @@ nav.navbar.navbar-light.fixed-bottom{
 
 /* Media Queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
+
     #portfolio,
     #about-me,
     #contact,
     #main-nav {
-        
+
         width: 66.67%;
     }
