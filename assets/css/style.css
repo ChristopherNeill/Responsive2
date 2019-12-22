@@ -42,26 +42,45 @@ nav.navbar.navbar-light.fixed-bottom {
     padding-right: 0px;
     background-color: #ffffff;
 }
-
+/* footer */
 #footertxt{
  margin-left: 40%;
 }
 
 
+/* Portfolio Style */
 
-/* Portfolio Page Styles */
 
-.card-img-top {
-    position: relative;
+.profile-card-5{
+    margin-top:30px;
 }
 
-.card-title {
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+}
+.profile-card-5 h5{
+    color: #fff;
+    background-color: #17a2b8;
+    width: 100%;
+}
+.card-title{
     position: absolute;
     z-index: 1;
     bottom: 0;
     width: calc(100% - 30px);
 }
-
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
 /* Media Queries */
 
 @media (min-width: 992px) {
